@@ -1,4 +1,4 @@
-// package sadd helps you to parse multiple service addresses formatted in a special single string syntax
+// Package sadd helps you to parse multiple service addresses formatted in a special single string syntax
 // specified atParseQuery()
 package sadd
 
@@ -15,6 +15,7 @@ var invalidAddressError = errors.New("Addres must be formatted as [?ip/host]:[0<
 var invalidAddressRangeError = errors.New(`Address range must be formatted as
 [?ip/host]:[0<port<=65535]-[?ip2/host2]:[0<port2<=65535] ip1/host1<=ip2/host2 and port<port2`)
 
+// Address is a service address.
 type Address struct {
 	Host string
 	Port int

@@ -1,6 +1,6 @@
 # sadd [![GoDoc](https://godoc.org/github.com/ilgooz/sadd?status.svg)](https://godoc.org/github.com/ilgooz/sadd) [![Go Report Card](https://goreportcard.com/badge/github.com/ilgooz/sadd)](https://goreportcard.com/report/github.com/ilgooz/sadd) [![Build Status](https://travis-ci.org/ilgooz/sadd.svg?branch=master)](https://travis-ci.org/ilgooz/master)
 
-Parse multiple service addresses formatted in a special single string syntax
+Parse multiple service addresses formatted in a special single string syntax.
 
 ```
 go get gopkg.in/ilgooz/sadd.v1
