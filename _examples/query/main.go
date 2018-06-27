@@ -17,7 +17,7 @@ func main() {
 		fmt.Println(address)
 	}
 	// outputs:
-	// 	:6379
+	//  :6379
 	//  :3000
 	//  :3001
 	//  :3002
